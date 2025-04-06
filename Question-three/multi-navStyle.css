@@ -1,0 +1,98 @@
+.display-flex{
+    display: flex;
+}
+
+.nav-li{
+    list-style: none;
+}
+.nav-a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.nav-ul{
+    gap: 20px;
+    background-color:tomato;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+
+body{
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color:#28282B ;
+}
+.nav-li:hover{
+background-color: black;
+}
+
+.nav-li .more{
+    display: none;
+    position: absolute;
+}
+.more-a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    /* background-color: tomato; */
+    width: 150px;
+   
+    
+}
+
+.nav-li:hover .more{
+    display: block;
+}
+
+.more-ul{
+    background-color: tomato;
+    
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    
+    
+}
+.more-ul-two{
+    background-color: tomato;
+    
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    position: absolute;
+    left: 90px;
+}
+
+.more-li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.more-a:hover{
+ background-color: black;
+}
+.more-li:hover{
+    background-color: black;
+}
+
+.more-li .more-two{
+    display: none;
+    /* margin-left: 20px; */
+
+}
+
+.more-li:hover .more-two{
+    display: block;
+}
