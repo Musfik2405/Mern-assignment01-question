@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background: #0d0d0d; */
+    background-image: url("/imaagess/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg");
+
+}
+
+main{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 460px;
+    padding: 60px;
+    border-radius: 20px;
+    
+}
+
+.input-group{
+    margin: 20px 0;
+    position: relative;
+}
+.input-group label{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 15px;
+    font-size: 1rem;
+    pointer-events: none;
+    color: rgb(218, 223, 223);
+    padding: 0 5px;
+    transition: .5s;
+
+}
+
+.input-group input{
+    width: 360px;
+    height: 60px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 15px;
+    border: 1.2px solid rgb(220, 223, 223);
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5) ;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label{
+    top: 0;
+    background: #010031;
+    font-size: 0.8rem;
+
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.log-btn{
+    width: 360px;
+    height: 60px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    color: white;
+    
+}
+.log-btn:hover{
+    color: aqua;
+    background-color: blue;
+}
+
+.desc{
+    color: yellow;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.display-flex{
+    display: flex;
+}
+
+.icons{
+/* background-color:rgba(255, 255, 255, 0.5); */
+
+/* color: rgba(255, 255, 255, 0.5);
+ */
+ filter: brightness(0) invert(1);
+}
+.facebook{
+    color: white;
+}
+
+.social{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+.media{
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    border-radius: 10px;
+
+}

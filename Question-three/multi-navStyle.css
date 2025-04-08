@@ -114,3 +114,9 @@ background-color: black;
     font-weight: 700;
     color: white;
 }
+
+
+.q:hover{
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    border: 3px solid rgb(0, 255, 255);
+}

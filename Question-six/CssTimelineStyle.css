@@ -1,5 +1,6 @@
 body{
     background-color:#71797E;
+    margin-bottom: 50px;
 }
 main{
     margin-top: 100px;
@@ -15,7 +16,7 @@ main{
     background-color:#28282B ;
     /* padding: 10px; */
     padding: 10px 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 15px;
 
 }
@@ -69,4 +70,8 @@ main{
 .timeline:hover{
     box-shadow: 0 0 25px rgb(0, 255, 255);
     border: 3px solid rgb(0, 255, 255);
+}
+
+.red-col{
+   background-color: tomato;
 }
